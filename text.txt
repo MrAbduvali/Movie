@@ -2,7 +2,7 @@ import 'animate.css';
 animate__animated animate__bounce
 
 
-
+// Fetch Data
 const [data, setData] = useState([])
   useEffect(() => {
     fetch("https://api.themoviedb.org/3/trending/all/day?api_key=c7db360e140aaa2ff0ac6e795bc11f61")
@@ -12,3 +12,12 @@ const [data, setData] = useState([])
 
   const items = [...data]
   // console.log(items);
+
+
+// Git 
+  git init
+  git add README.md
+  git commit -m "first commit"
+  git branch -M main
+  git remote add origin https://github.com/MrAbduvali/Movie.git
+  git push -u origin main
